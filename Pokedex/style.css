@@ -1,0 +1,72 @@
+/* comentário */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: monospace;
+}
+
+body{
+    font-family: 16px;
+    background: #4ECDC4;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #556270, #4ECDC4);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #556270, #4ECDC4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+* {
+    max-width: 100%;
+}
+
+.lista{
+    color: blue;
+    font-size: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ol {
+    color: blue;
+    font-size: 14px;
+}
+
+.card {
+    background-color: #d6e6e3;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    width: 30vw;
+    border: solid 1px lightgreen;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+p,
+h2
+h3 {
+    display: inline-block;
+}
+
+.card-image {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.card-text {
+    width: 50%;
+}
+
+.card-name {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 4rem;
+    text-align: center;
+    margin: 2rem;
+    color: white;
+}
